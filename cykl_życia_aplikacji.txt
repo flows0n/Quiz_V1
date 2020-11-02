@@ -1,0 +1,42 @@
+Po pierwszym uruchomieniu aplikacji:
+2020-11-02 10:16:11.006 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onCreate
+2020-11-02 10:16:11.066 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onStart
+2020-11-02 10:16:11.066 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onResume
+
+Po wciśnięciu przycisku Cofnij:
+2020-11-02 10:17:04.620 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onPause
+2020-11-02 10:17:05.295 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onStop
+2020-11-02 10:17:05.296 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onDestroy
+
+Po ponownym uruchomieniu aplikacji:
+2020-11-02 10:17:51.826 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onCreate
+2020-11-02 10:17:51.888 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onStart
+2020-11-02 10:17:51.888 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onResume
+
+Po wciśnięciu przycisku ekranu głównego Home:
+2020-11-02 10:18:50.044 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onPause
+2020-11-02 10:18:50.643 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onStop
+
+Po powrocie do aplikacji z listy ostatnio używanych aplikacji:
+2020-11-02 10:19:24.930 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onStart
+2020-11-02 10:19:24.931 8135-8135/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onResume
+
+Przy zmianie orientacji ekranu, aplikacja wyświetliła ponownie pierwsze pytanie.
+Logi wyświetlone po przewróceniu ekranu:
+2020-11-02 10:22:39.631 8582-8582/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onPause
+2020-11-02 10:22:39.634 8582-8582/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onStop
+2020-11-02 10:22:39.636 8582-8582/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onDestroy
+2020-11-02 10:22:39.662 8582-8582/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onCreate
+2020-11-02 10:22:39.695 8582-8582/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onStart
+2020-11-02 10:22:39.696 8582-8582/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onResume
+
+Po nadpisaniu metodu onSaveInstanceState aplikacja podczas przeracania ekranu wyświetliła ostatnio wyświetlane pytanie. Stan w jakiej aplikacja była w pozycji wertykalnej
+został zapisany i wyświetlony w pozycji horyzontalnej.
+Logi wyświetlone po przewróceniu ekranu:
+2020-11-02 10:51:01.206 4858-4858/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onPause
+2020-11-02 10:51:01.217 4858-4858/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onStop
+2020-11-02 10:51:01.221 4858-4858/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onSaveInstanceState
+2020-11-02 10:51:01.222 4858-4858/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onDestroy
+2020-11-02 10:51:01.304 4858-4858/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onCreate
+2020-11-02 10:51:01.407 4858-4858/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onStart
+2020-11-02 10:51:01.409 4858-4858/com.example.quiz_v1 D/MainActivity: Wywołana została metoda cyklu życia: onResume
